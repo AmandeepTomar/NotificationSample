@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="256dp"
+    android:layout_gravity="center"
+    android:maxHeight="256dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvExpendedTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+        tools:text="Title" />
+
+    <TextView
+        android:id="@+id/tvExpendedDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.Compat.Notification.Info"
+        tools:text="Info of notification" />
+
+    <ImageView
+        android:id="@+id/imageExpended"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/big_image" />
+
+</LinearLayout>
